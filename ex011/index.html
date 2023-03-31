@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Mídias</title>
+</head>
+<body>
+    <h1 style="font-size: 12mm; font-family: 'Lucida Sans';">Teste do tamanho de imagem</h1>
+    <br>
+    <br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="image/imagem-pequena.png" type="image/png"> <!-- imagem para celular -->
+        <source media="(max-width: 1050px)" srcset="image/imagem-media.png" type="image/png"> <!-- imagem para tablet, telas médias-->
+        <img src="image/imagem-grande.png" alt="imagem grande"> <!-- imagem para computadores, TVs, telas grandes--> <!-- <img> sempre abaixo do <source>--> <!-- Imagens maiores sempre depois do outros sources-->
+    </picture>
+    <br>
+    <h1 style="font-size: 12mm; font-family: 'Lucida Sans';">Teste de reprodução de audio</audio></h1>
+    <audio src="audios/reagge-musica.mp3" controls></audio> <!-- [controls] aparecer a caixa de reprodução | [autoplay] tocar a musica automatica -->
+    <!-- MP3 OGG WAV -->
+    <br>
+    <audio preload="metadata" controls loop><!-- [metadata] pegar apenas informações | [none] carregar apenas quando o usuario clicar no audio | [auto] carregar tudo automatico "não recomendado" --><!-- [loop] recomeçar-->
+        <source src="audios/reagge-musica.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <h1 style="font-size: 12mm; font-family: 'Lucida Sans';">Teste de reprodução de videos</h1> <!-- MP4 WEBM OGV-->>
+    <br>
+    <video src="videos/aviao.mp4" controls autoplay></video>
+</body>
+</html>

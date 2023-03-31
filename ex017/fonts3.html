@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'title';
+            src: url('fonts/Adventure.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat
+            - svg
+            */
+        }
+        main{
+            background-color: yellow;
+            width: 700px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 30px;
+        }
+        h1{
+            font-family: 'title';
+            font-size: 6em;
+            text-align: center;
+            text-shadow: 2px 2px 4px blue;
+            font-weight: normal;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.8em;
+            text-align: justify;
+            text-shadow: 1px 1px 2px blue;
+            text-indent: 60px; /*Espaçamento de inicio de parágrafo*/
+        }
+        mark{
+            background-image: linear-gradient(to bottom, yellow, rgb(149, 149, 254), yellow);
+            border-radius: 80px;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <main>
+        <h1><mark>UniverseCraft</mark></h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure eos, temporibus atque sit ad inventore culpa est dolore eligendi consequatur consequuntur magnam harum cumque ea nihil repellendus natus ex?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, hic earum tenetur odit maiores et ipsa quae amet aliquam nisi animi ab mollitia voluptatibus, provident eos, iusto vitae perspiciatis? Ullam.</p>
+    </main>
+</body>
+</html>

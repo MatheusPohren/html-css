@@ -1,0 +1,25 @@
+@charset "UTF-8"; /*Regras em CSS*/ /*Degradê  |  top (em cima), bottom (embaixo)*/
+
+* {  /*Configurações Globais*/
+    height: 100%;
+}
+body {
+    background-image: url(https://image.freepik.com/fotos-gratis/fundo-de-textura-de-papel-azul-e-amarelo-em-branco_7190-1904.jpg);
+    background-attachment: fixed;
+    background-size: 50cm;
+
+}
+/*body {
+    background-image: linear-gradient / radial-gradient(to bottom, #4d4dffd5, #ffff59d4);  
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+h2 {
+    font-size: 12mm;
+}
+p {
+    font-size: 9mm;
+}
+
+
+

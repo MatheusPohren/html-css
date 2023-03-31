@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'tittles';
+    src: url('fonts/Adventure.otf') format('opentype');
+    height: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root { /*   :root {} variaveis*/
+    --cor1: #7caef9;
+    --cor2: #6ea3f4;
+    --cor3: #287eff;
+    --cor4: #7e7d7d;
+    /*todas variaveis em css começam com --*/
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.cabeçario {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    font-size: 3em;
+    padding: 8px 30px 90px 30px;
+    margin: -10px -10px 30px -10px;
+    text-align: center;
+    color: white;
+}
+
+#titulohead {
+    margin: 20px auto 20px auto;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 1px 1px 5px black;
+    font-family: 'Adventure' Arial, Helvetica, sans-serif;
+}
+
+#subtitulo {
+    margin: 20px auto 20px auto;
+    padding: 20px 20px 80px 20px;
+    text-shadow: 1px 1px 5px black;
+    font-size: 38px;
+}
+
+#linkcab {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.linknav {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.linknav:hover {
+    background-image: radial-gradient(var(--cor2) 30%, rgb(33, 121, 253));
+}
+
+main {
+    height: 2500px;
+    width: 2000px;
+    background-color: rgba(158, 197, 255, 0.794);
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px 2px #7e7d7d;
+}
+
+article > #titulomain {
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 4.8em;
+    color: white;
+    text-shadow: 0.1px 0.1px 5px black;
+    background-color: rgb(117, 117, 255) ;
+    height: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'tittles', Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px black;
+}
+
+p {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+article > .novidades {
+    padding: 70px;
+}
+
+#video1 {
+    background-color: rgb(43, 177, 255);
+    height: 600px;
+    width: 900px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, rgb(124, 174, 249), rgb(40, 126, 255));
+    font-size: 3em;
+    padding: 8px 30px 90px 30px;
+    margin: -10px -10px -30px -10px;
+    text-align: center;
+    color: white;
+}
+
+#h2f {
+    text-align: left;
+    margin-top: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+.foota {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}

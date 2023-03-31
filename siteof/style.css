@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(http://getwallpapers.com/wallpaper/full/e/f/2/191346.jpg);
+    background-attachment: fixed;
+    background-size: 260em;
+}
+
+#titulosite {
+    margin: -40px 22px 62px -48px;
+    width: 1200px;
+    font-weight: 600;
+    border: 16px solid black;
+    border-radius: 60px;
+    padding: 12px;
+    background-color: rgba(255, 255, 0, 0.58);
+
+}
+
+#download, #discord, #instagram, #youtube {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    border: 8px solid black;
+    background-color: rgba(255, 255, 0, 0.58);
+    padding: 12px;
+    border-radius: 12px;    
+    margin-left: 50px;
+
+}
+
+#download:hover, #discord:hover, #instagram:hover, #youtube:hover {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 14px;
+}
+
+#download:active, #discord:active, #instagram:active, #youtube:active {
+    background-color: rgb(255, 255, 222);
+
+}
+
+#cabeçario {    
+    display: block;
+    background-color: rgb(0, 191, 255);
+    margin-top: 12px;
+    padding: 50px 50px 50px 50px;
+    border-bottom: 20px solid rgb(66, 205, 251);
+    border-bottom-right-radius: 50px;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.58);
+    width: 1400px;
+    padding: 22px;
+    margin:  50px auto auto auto;
+    border-radius: 90px;
+    border: 12px solid yellow;
+    box-shadow: 4px 4px 64px -13px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.sagas:hover {
+    font: normal normal 32.68px 'Work Sans', Arial, Helvetica, sans-serif;
+    background-color: rgba(252, 252, 153, 0.891);
+    width: 600px;
+    margin:auto;
+    padding: 28px;
+    border-radius: 12px;
+
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 8em;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+    font: normal 400 60px arial;
+}
+
+h2#segundaT {
+    font: normal 400 60px arial;
+}
+
+mark {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 126), rgb(123, 123, 255));
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgb(123, 123, 255);
+}
+
+p#proximapag {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+}
+
+mark#proximapag {
+    background-image: linear-gradient(to bottom, yellow, white);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 2px white;
+
+}
+
+#proximapag {
+    margin-right: 10px;
+    margin-left: 2150px;
+    border: 12px solid black;
+    padding-left: 1px;
+}
+
+#proximapag:hover {
+    background-color: yellow;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p {
+    font: normal normal 30.68px 'Work Sans', Arial, Helvetica, sans-serif;
+    background-color: rgba(252, 252, 153, 0.738);
+    width: 600px;
+    margin:auto;
+    padding: 23px;
+    border-radius: 12px;
+}
+
