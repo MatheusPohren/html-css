@@ -4,45 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de fundo</title>
+    <title>Teste</title>
     <style>
-        .bloco {
-            height: 300px;
-            margin: 20px;
-            border: 2px solid black;
-            background-image: url(image/wallpaper002.jpg);
+        * {
+            font-family: Arial, Helvetica, sans-serif;
         }
-
-        #q1 {
-            background-position: left top; 
+        #h1::after {
+            content: 'Olá, isso é um título';
+            font-size: 50px;
         }
-
-        #q2 {
-             
+        #p::after {
+            content: 'E esse é o parágrafo do meu site';
+            font-size: 20px;
         }
-
-        #q3 {
-
-        }
-
-        #q4 {
-
-        }
-
     </style>
 </head>
 <body>
-    <div class="bloco" id="q1"> <!-- vh ViewPort  tela do navegados-->
-
-    </div>
-    <div class="bloco" id="q2">
-
-    </div>
-    <div class="bloco" id="q3">
-        
-    </div>
-    <div class="bloco" id="q4">
-        
-    </div>
+    <div id="h1"></div>
+    <div id="p"></div>
 </body>
 </html>
