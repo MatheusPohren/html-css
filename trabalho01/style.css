@@ -27,15 +27,23 @@ a {
 header {
     background-color: black;
     color: white;
-   
-    padding-top: 50px;
-    padding-bottom: 50px;
+
 }
 
 header > h1 {
     text-align: center;
     font-size: 80px;
     font-variant: small-caps;
+
+    padding-top: 25px;
+}
+
+header > p {
+    text-align: center;
+    font-size: 40px;
+    font-variant: small-caps;
+
+    padding-bottom: 50px;
 }
 
 section {
@@ -54,18 +62,32 @@ section {
 .imagem {
     background-color: rgb(47, 47, 47);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.605);
 }
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.427);
+    border-radius: 40px;    
 
     width: 800px;
     padding: 20px;
 }
 
 section p {
-    font-family: 'cantiga';
+    font-family: 'cantiga', cursive;
     margin-left: 30px;
+}
+
+#img01 {
+    background-image: url(image/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(image/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
