@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Bhaskara</h1>
+    <form>
+      <label for="a">Valor de A:</label>
+      <input type="number" id="a" name="a">
+      <label for="b">Valor de B:</label>
+      <input type="number" id="b" name="b">
+      <label for="c">Valor de C:</label>
+      <input type="number" id="c" name="c">
+      <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+    <script>
+        function calcular() {
+        let a = parseFloat(document.getElementById('a').value);
+        let b = parseFloat(document.getElementById('b').value);
+        let c = parseFloat(document.getElementById('c').value);
+        
+        let delta = Math.pow(b, 2) - 4 * a * c;
+        
+        if (delta < 0) {
+            document.getElementById('resultado').innerHTML = "Não existem raízes reais.";
+        } else {
+            let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            document.getElementById('resultado').innerHTML = "x1 = " + x1.toFixed(2) + ", x2 = " + x2.toFixed(2);
+        }
+    }
+    </script>
+</body>
+</html>
