@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #h1::after {
+            content: 'Minha primeira tabela!';
+            font-size: 50px;
+        }
+
+        td {
+            font-size: 30px;
+            border: 1px solid black;
+            padding: 10px;
+            font-variant: small-caps;
+        }
+        
+        table {
+            width: 500px;
+            height: 100px;
+            border-collapse: collapse;
+        }
+        
+        #teste {
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="teste">
+        <div id="h1"></div>
+        <table> <!-- tabela -->
+            <tr> <!-- Linha de tabela -->
+                <td>a1</td>
+                <td>a2</td> <!-- Dados de tabela -->
+                <td>a3</td>
+            </tr>
+            <tr>
+                <td>b1</td>
+                <td>b2</td>
+                <td>b3</td>
+            </tr>
+            <tr>
+                <td>c1</td>
+                <td>c2</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>d1</td>
+                <td>d2</td>
+                <td>d3</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
